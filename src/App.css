@@ -22,7 +22,7 @@
 
 .App-header {
   color: white;
-  text-shadow: 2px 2px 4px black;
+  text-shadow: 4px 4px 4px black;
 }
 
 .treeContainer {
@@ -43,21 +43,22 @@
 
 .link {
   display: inline-block;
-  padding: 10px 20px;
+  padding: 12px 22px;
   color: white;
-  text-shadow: 2px 2px 4px black;
+  text-shadow: 2px 2px 5px black;
   text-align: center;
-  border: 2px solid white;
+  border: 2px solid rgba(255, 255, 255, 0.8);
   border-radius: 25px;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 17px;
   font-weight: bold;
-  width: 200px;
-  min-width: 200px;
-  backdrop-filter: blur(5px);
+  width: 220px;
+  backdrop-filter: blur(8px);
+  background-color: rgba(255, 255, 255, 0.1);
   position: relative;
   overflow: hidden;
   z-index: 1;
+  transition: all 0.3s ease;
 }
 
 .link::before {
@@ -67,7 +68,7 @@
   left: 50%;
   width: 300%;
   height: 300%;
-  background-color: #e55efc;
+  background-color: #e2c27d;
   transition: transform 1s ease;
   transform: translate(-50%, -50%) scaleX(0);
   z-index: -1;
@@ -80,5 +81,5 @@
 
 .link:hover {
   color: black;
-  border-color: #42e9ff;
+  border-color: #b83201;
 }
