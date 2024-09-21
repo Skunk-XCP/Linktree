@@ -5,7 +5,7 @@ import LinkSection from "./component/LinkSection";
 function App() {
   return (
     <div className="App">
-      <div className="App">
+      <div className="treeContainer">
         <Header />
         <LinkSection />
       </div>
