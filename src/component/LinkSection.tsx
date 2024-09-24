@@ -23,6 +23,14 @@ function LinkSection() {
             Donatien Rouzeirol
           </a>
         </li>
+        <li>
+          <a
+            className="link"
+            href="https://drive.google.com/file/d/1JugF90gVgb-swPcMPOtncZWNp1jeLYbn/view?usp=sharing"
+          >
+            CV
+          </a>
+        </li>
       </ul>
     </div>
   );
